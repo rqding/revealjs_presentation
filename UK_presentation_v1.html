@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – Numerical Integration Presentation</title>
+
+		<meta name="description" content="Numerical Integration Presentation For UK Conference">
+		<meta name="author" content="Richard Ding">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                <section>
+                    <h2>
+                        Numerical Integration
+                    </h2>
+										<p>
+											Chang Xu
+										</p>
+										<p>
+											<strong>Math Lab Carleton University</strong>
+										</p>
+                </section>
+
+                <section>
+                    <h3 id="background">Symbolic number relationship</h3>
+										<section>
+											<p> Many kinds of number accosiations</p>
+										</section>
+										<section>
+											 <p><strong>Cardinal</strong></p>
+											 <p> </p>
+											 <p> 3 > 2 > 1 </p>
+										</section>
+										<section>
+											<p><strong>Ordinal</strong></p>
+										 	<p> </p>
+											<p> 1 -> 2 -> 3</p>
+										</section>
+										<section>
+											<p><strong>Erthmatic</strong></p>
+										 	<p> </p>
+											<p> 1 + 2 = 3</p>
+											<p> 1 x 2 x 3 = 6</p>
+										</section>
+										<section>
+											<p><strong>More Complax</strong></p>
+										 	<p> </p>
+											<p> 2X + 1 = 3 </p>
+											<p> Fraction </p>
+											<p> More... </p>
+										</section>
+                </section>
+                <section>
+                    <h2>Cardinal and Ordinal</h2>
+										<section id="buildingblock">
+										<p class="fragment">Cardinal and Ordical active different part of brain</p>
+                    <p class="fragment">Cardinal is building block of Ordinal</p>
+									</section>
+									<section id="Question">
+										<p class="fragment">We want to look at the transition period</p>
+										<p class="fragment">How do we measure it ?</p>
+									</section>
+                </section>
+                <section>
+                    <h2 id="noveltasks">Novel Tasks</h2>
+
+                    <p>Talk about spetial related</p>
+                </section>
+                <section>
+                    <h2 id="statsmodel">Stats Model</h2>
+
+                    <p>Talk about the model and present data</p>
+                </section>
+                <section>
+                    <h2 id="method">Method</h2>
+
+                    <p>Talk about testing method</p>
+
+                    <ul>
+                    <li>Total number </li>
+
+                    <li>Grade</li>
+
+                    <li>Testing period (T1 and T2)</li>
+
+                    <li>Testing apps and games</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 id="finding">Finding</h2>
+                    <section>
+                        <h3 id="q1">Q1</h3>
+                        <p>Research Question 1</p>
+                    </section>
+                    <section>
+                        <h3 id="q2">Q2</h3>
+                        <p>Research Question 2</p>
+                    </section>
+                    <section>
+                        <h3 id="q3">Q3</h3>
+                        <p>Research Question 3</p>
+                    </section>
+                </section>
+                <section>
+                    <h2 id="summary">Summary</h2>
+
+                    <p>Talk about take-home message</p>
+                </section>
+
+                <section>
+                    <h1>
+                        Thank you
+                    </h1>
+                </section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					// Title-Footer plugin
+					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize();} }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
