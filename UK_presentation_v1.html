@@ -39,56 +39,83 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+				<footer>
+					<img src="img/carleton_logo.jpg" style="position: fixed; left:330px; bottom: 0; width: 15%; opacity:0.6; filter:alpha(opacity=60);">
+					<p style="position: fixed; left:490px; bottom: -30px; width: 20%; opacity:0.5; filter:alpha(opacity=50);">Math Lab</p>
+				</footer>
                 <section>
                     <h2>
                         Numerical Integration
                     </h2>
-										<p>
-											Chang Xu
-										</p>
-										<p>
-											<strong>Math Lab Carleton University</strong>
-										</p>
+											<big>Chang Xu</big>
+
                 </section>
 
                 <section>
-                    <h3 id="background">Symbolic number relationship</h3>
+                    <h3 style="text-transform: capitalize;">number relationships</h3>
 										<section>
-											<p> Many kinds of number accosiations</p>
+											<p> Numbers are related to each other </p>
 										</section>
 										<section>
 											 <p><strong>Cardinal</strong></p>
 											 <p> </p>
 											 <p> 3 > 2 > 1 </p>
+											 <p class="fragment">
+												 <img src="img/down_arrow.png" style="border:none;">
+											 </p>
 										</section>
 										<section>
 											<p><strong>Ordinal</strong></p>
-										 	<p> </p>
-											<p> 1 -> 2 -> 3</p>
+										 	<p></p>
+											<p style="font-size:1.1em"> 1
+												<img src="img/right_arrow.png" style="border:none; vertical-align:bottom;"> 2
+												<img src="img/right_arrow.png" style="border:none; vertical-align:bottom;"> 3
+											</p>
+											<p></p>
+											<p class="fragment">
+												<img src="img/down_arrow.png" style="border:none;">
+											</p>
 										</section>
 										<section>
-											<p><strong>Erthmatic</strong></p>
+											<p><strong>Arithmetic</strong></p>
 										 	<p> </p>
 											<p> 1 + 2 = 3</p>
+											<p></p>
+											<p> 3 - 2 = 1 </p>
 											<p> 1 x 2 x 3 = 6</p>
+											<p class="fragment">
+												<img src="img/down_arrow.png" style="border:none;">
+											</p>
 										</section>
 										<section>
-											<p><strong>More Complax</strong></p>
+											<p><strong>Complex Relations</strong></p>
 										 	<p> </p>
-											<p> 2X + 1 = 3 </p>
+											<p> 2 X + 1 = 3 </p>
 											<p> Fraction </p>
 											<p> More... </p>
 										</section>
                 </section>
                 <section>
-                    <h2>Cardinal and Ordinal</h2>
-										<section id="buildingblock">
-										<p class="fragment">Cardinal and Ordical active different part of brain</p>
-                    <p class="fragment">Cardinal is building block of Ordinal</p>
+                    <h3 style="text-transform: capitalize;">cardinal and ordinal associations</h3>
+										<section>
+										<ul>
+										<big>
+											<li class="fragment">Behavioral and neurological evidence
+											<small style="position: fixed; left:400px; bottom: 100px; width: 100%;">(Ian 2006; Ansara 2004)</small>
+											</li>
+											<p></p>
+                    	<li class="fragment">Cardinal is building block of Ordinal</li>
+										</big>
+										</ul>
 									</section>
 									<section id="Question">
-										<p class="fragment">We want to look at the transition period</p>
-										<p class="fragment">How do we measure it ?</p>
+										<ul>
+										<big>
+											<li class="fragment">We want to look at the transition period (Grade 1 to 2)</li>
+											<p></p>
+											<li class="fragment">How do we measure it ?</li>
+										</big>
+										</ul>
 									</section>
                 </section>
                 <section>
@@ -117,7 +144,7 @@
                     </ul>
                 </section>
                 <section>
-                    <h2 id="finding">Finding</h2>
+                    <h2 style="text-transform: capitalize;">Finding</h2>
                     <section>
                         <h3 id="q1">Q1</h3>
                         <p>Research Question 1</p>
@@ -142,8 +169,6 @@
                         Thank you
                     </h1>
                 </section>
-
-
 			</div>
 
 		</div>
@@ -171,8 +196,6 @@
 					{ src: 'plugin/search/search.js', async: true },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-					// Title-Footer plugin
-					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize();} }
 				]
 			});
 
